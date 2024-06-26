@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(300deg,deepskyblue,darkviolet,blue);
+  color: white;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: "Permanent Marker", cursive;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
